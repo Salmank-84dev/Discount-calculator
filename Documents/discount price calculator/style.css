@@ -1,0 +1,37 @@
+body{
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+background-color: skyblue;
+}
+.container {
+    height: 25vh;
+    width: 80vh;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+background-color: white;
+}
+h1 {
+    font-style: italic;
+    color: rgb(255, 208, 151);
+}
+input{
+    margin: 10px;
+    padding: 8px;
+    width: 100px;
+}
+button{
+    margin-top: 10px;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: #4CAF50;
+;
+}
+button:hover{
+    cursor: pointer;
+}
